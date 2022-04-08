@@ -1,0 +1,118 @@
+/* Universal Selectors */
+body {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    border: 1px solid #073B4C;
+    padding: 20px 10px;
+    margin: 20px;
+}
+
+#margin {
+    margin: 20px;
+}
+
+/* Colors Section */
+.color-container {
+    width: 100%;
+}
+
+.panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 10px;
+}
+
+.midnight {
+    background-color: #073B4C;
+    color: white;
+
+}
+
+.blue {
+    background-color: #118AB2;
+    color: white;
+
+}
+
+.yellow {
+    background-color: #ffd166;
+}
+
+.green {
+    background-color: #06D6A0;
+}
+
+/* Fonts Section*/
+.fonts {
+    width: 100%;
+    padding: 20px;
+}
+
+.font-panel {
+    width: 35%;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: regular;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.verdana {
+    font-family: Verdana, sans-serif;
+}
+
+.helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Text Section */
+.text-panel {
+    margin: 10px;
+}
+
+.text-panel h2 {
+    margin: 0;
+}
